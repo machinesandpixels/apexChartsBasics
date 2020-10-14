@@ -3,7 +3,11 @@ import React from 'react';
 function App() {
   return (
     <div className="App">
-      <h1>Hello, ApexCharts with React</h1>
+      <div class="container">
+        <div id="chart">
+          <h1>Hello, ApexCharts with React</h1>
+        </div>
+      </div>
     </div>
   );
 }
